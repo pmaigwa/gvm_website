@@ -155,9 +155,9 @@ body{
     height: auto;
     flex-wrap: wrap;
     background-image: url(../images/img1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: 100% 100%; /* Stretch to fit the entire container */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: top center; /* Ensures image stays centered */
     display: flex;
     align-items: center;
     justify-content: center;
