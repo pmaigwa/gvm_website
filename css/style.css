@@ -156,6 +156,7 @@ body{
     flex-wrap: wrap;
     background-image: url(../images/img1.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
