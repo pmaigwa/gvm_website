@@ -148,16 +148,14 @@ body{
     display: none;
 }
 
-.home {
-    min-height: 100vh; 
+.home{
+    min-height: 100vh;
     width: 100vw;
     max-width: 100%;
     height: auto;
     flex-wrap: wrap;
     background-image: url(../images/img1.jpg);
-    background-size: contain;
-    background-position: center; 
-    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
