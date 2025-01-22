@@ -16,6 +16,7 @@ html{
 
 body{
     overflow-x: hidden;
+    flex-wrap: wrap;
 }
 
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
@@ -258,6 +259,7 @@ body{
     background:#fff;
     text-align: center;
     padding:30px 25px;
+    flex-wrap: wrap;
     box-shadow: 0 0 25px rgba(0,0,0,0.07);
     border-radius: 20px;
     margin-bottom: 30px;
@@ -359,6 +361,8 @@ body{
 @media (max-width: 700px) {
 	.counters .container {
 		grid-template-columns: repeat(2, 1fr);
+		width: 100%;
+        	padding: 0 10px;
 	}
 
 	.counters .container > div:nth-of-type(1),
@@ -484,18 +488,24 @@ body{
     position: relative;
     padding: 90px 0 60px 0;
     background: #f2f2f2;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-item {
     position: relative;
     margin: 0 15px 30px 15px;
     background: #ffffff;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-img {
     position: relative;
     background: #000000;
     overflow: hidden;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-text {
@@ -504,18 +514,24 @@ body{
     padding: 30px 15px;
     text-align: center;
     background: #ffffff;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-text h3 {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-text h4 {
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
 }
 
 .testimonials .testimonial-text p {
@@ -546,6 +562,8 @@ body{
 @media (max-width: 575px) {
     .testimonials .testimonial-text {
         padding: 25px;
+	flex-direction: column;
+        text-align: center;
     }
 }
 
